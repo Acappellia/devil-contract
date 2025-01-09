@@ -6,6 +6,7 @@ scoreboard players set #game_status dc 0
 
 tellraw @a "游戏中止"
 
+clear @a compass
 worldborder center 0.0 0.0
 worldborder set 600
 

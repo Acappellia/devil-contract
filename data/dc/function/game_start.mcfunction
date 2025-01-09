@@ -23,6 +23,7 @@ title @a title [{"text": "游戏开始","color": "yellow"}]
 execute as @a at @s run playsound entity.wither.spawn player @s ~ ~ ~ 1 0.8
 
 scoreboard objectives setdisplay sidebar.team.white dc_score
+execute as @a run function dc:private/compass/give
 
 execute as @a[tag=dc_summon_skeleton] at @s run function dc:private/player/summon_wither_skeleton_x5
 schedule function dc:private/30s_tick 30s append
