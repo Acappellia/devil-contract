@@ -12,7 +12,7 @@ worldborder center 0.0 0.0
 worldborder set 600
 
 time set 0
-difficulty peaceful
+weather clear
 difficulty hard
 
 scoreboard players set @a dc_score 0

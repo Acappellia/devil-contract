@@ -6,7 +6,6 @@ effect give @a instant_health 1 9 true
 scoreboard players set @a[scores={dc_respawn_cd=..-1}] dc_respawn_cd -1
 
 difficulty peaceful
-difficulty hard
 
 scoreboard players set #game_status dc 0
 

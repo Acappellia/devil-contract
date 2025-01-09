@@ -2,7 +2,7 @@ gamerule commandBlockOutput false
 #gamerule sendCommandFeedback false
 
 gamerule keepInventory true
-difficulty hard
+difficulty peaceful
 
 forceload add 0 0 0 0
 
