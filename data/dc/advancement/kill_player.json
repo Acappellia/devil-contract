@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "kill_player": {
+            "trigger": "player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "player"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "dc:private/score/kill_player"
+    }
+}

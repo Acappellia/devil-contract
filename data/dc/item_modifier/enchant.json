@@ -1,0 +1,17 @@
+[
+    {
+        "function": "enchant_with_levels",
+        "options": "protection",
+        "levels": 15
+    },
+    {
+        "function": "enchant_with_levels",
+        "options": "efficiency",
+        "levels": 12
+    },
+    {
+        "function": "enchant_with_levels",
+        "options": "unbreaking",
+        "levels": 12
+    }
+]
