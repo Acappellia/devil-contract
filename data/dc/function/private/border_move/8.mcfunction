@@ -2,6 +2,6 @@ tellraw @a [{"text": "[Devil's Contract] 地图正在收束"}]
 
 execute as @a at @s run playsound minecraft:ambient.cave ambient @s ~ ~ ~ 1 1
 
-worldborder set 120 30
+worldborder set 140 30
 
-schedule function dc:private/border_move/9 115s replace
+schedule function dc:private/border_move/9 125s replace

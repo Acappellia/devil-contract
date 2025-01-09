@@ -56,4 +56,10 @@ team modify mob_friends_hidescore friendlyFire true
 team modify mob_friends_hidescore nametagVisibility never
 team modify mob_friends_hidescore seeFriendlyInvisibles false
 
+bossbar add final_timer "剩余时间"
+bossbar set final_timer style progress
+bossbar set final_timer max 240
+bossbar set final_timer color red
+bossbar set final_timer visible false
+
 schedule function dc:private/slow_tick 20t append

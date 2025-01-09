@@ -1,6 +1,9 @@
+effect clear @a resistance
+effect clear @a saturation
+
 effect give @a instant_health 1 9 true
 effect give @a[tag=!dc_summon_skeleton] resistance 3 9 false
-effect clear @a saturation
+
 gamemode survival @s
 
 spreadplayers 0 0 100 250 false @a
@@ -16,6 +19,7 @@ scoreboard players set @a dc_score 0
 scoreboard players set @a dc_survivetime 0
 scoreboard players set @s dc_death_counter 0
 scoreboard players set #dc_all_score dc 0
+scoreboard players set #final_timer dc 240
 
 scoreboard players set #game_status dc 1
 

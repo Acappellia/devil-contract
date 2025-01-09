@@ -7,4 +7,4 @@ execute as @a at @s run playsound minecraft:ambient.cave ambient @s ~ ~ ~ 1 1
 
 worldborder set 540 30
 
-schedule function dc:private/border_move/2 115s replace
+schedule function dc:private/border_move/2 125s replace
