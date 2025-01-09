@@ -1,5 +1,6 @@
 effect give @a instant_health 1 9 true
 effect give @a[tag=!dc_summon_skeleton] resistance 3 9 false
+effect clear @a saturation
 gamemode survival @s
 
 spreadplayers 0 0 100 250 false @a
