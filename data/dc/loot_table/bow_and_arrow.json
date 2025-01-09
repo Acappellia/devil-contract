@@ -1,0 +1,43 @@
+{
+    "type": "generic",
+    "pools": [
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "arrow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1,
+            "bonus_rolls": 0
+        },
+        {
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "bow",
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_enchantments",
+                            "enchantments": {
+                                "infinity": 1
+                            }
+                        }
+                    ]
+                }
+            ],
+            "rolls": 1,
+            "bonus_rolls": 0
+        }
+    ]
+}

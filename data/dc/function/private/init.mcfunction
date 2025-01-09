@@ -11,6 +11,7 @@ scoreboard players set #10 dc 10
 scoreboard players set #20 dc 20
 execute unless score #pid dc matches 0.. run scoreboard players set #pid dc 0
 execute unless score #game_status dc matches 0.. run scoreboard players set #game_status dc 0
+execute unless score #score_per_trasure dc matches 0.. run scoreboard players set #score_per_trasure dc 100
 
 scoreboard objectives add dc_pid dummy
 scoreboard objectives add dc_revive_time custom:time_since_death

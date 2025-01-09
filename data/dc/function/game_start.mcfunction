@@ -14,6 +14,7 @@ difficulty hard
 scoreboard players set @a dc_score 0
 scoreboard players set @a dc_survivetime 0
 scoreboard players set @s dc_death_counter 0
+scoreboard players set #dc_all_score dc 0
 
 scoreboard players set #game_status dc 1
 

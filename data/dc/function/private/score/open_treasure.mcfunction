@@ -1,6 +1,6 @@
-advancement revoke @s only dc:kill_player
+advancement revoke @s only dc:open_treasure
 
-scoreboard players set #scores_to_add dc 5
+scoreboard players set #scores_to_add dc 2
 scoreboard players operation #scores_to_add dc *= @s dc_multiplier
 scoreboard players operation @s dc_score += #scores_to_add dc
 scoreboard players operation #dc_all_score dc += #scores_to_add dc
