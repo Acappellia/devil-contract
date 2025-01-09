@@ -15,6 +15,8 @@ scoreboard players set #game_status dc 0
 tellraw @a [{"text": "[Devil's Contract] Game Over"}]
 title @a title [{"text": "游戏结束","color": "red"}]
 
+execute as @a at @s run playsound entity.wither.death player @s ~ ~ ~ 0.5 0.8
+
 schedule clear dc:private/30s_tick
 schedule clear dc:private/1min_tick
 schedule clear dc:private/border_move/1
