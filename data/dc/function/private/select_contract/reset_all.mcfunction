@@ -18,7 +18,9 @@ scoreboard players set @s dc_maxhealth 0
 team join normal_player
 
 clear @s
-effect clear @s
+effect clear @s mining_fatigue
+effect clear @s glowing
+effect clear @s regeneration
 effect give @s instant_health 1 9 true
 
 scoreboard players set @s dc_multiplier 10
