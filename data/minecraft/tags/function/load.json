@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "dc:private/init"
+        "dc:private/init",
+        "bs.position:__load__"
     ]
 }

@@ -1,0 +1,1 @@
+$give @s diamond[rarity="rare"] $(count)

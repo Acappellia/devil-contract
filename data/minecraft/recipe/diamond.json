@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:diamond_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft:blue_dye",
+    "components": {
+      "item_name": "[{\"text\":\"碎钻\"}]",
+      "lore": [
+        "[{\"text\":\"It doesn't work here..\",\"color\":\"gray\"}]"
+      ]
+    }
+  }
+}

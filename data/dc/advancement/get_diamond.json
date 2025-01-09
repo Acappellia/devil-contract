@@ -1,0 +1,20 @@
+{
+    "criteria": {
+        "get_diamond": {
+            "trigger": "inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "diamond",
+                        "components": {
+                            "rarity": "common"
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "dc:private/score/get_diamond"
+    }
+}

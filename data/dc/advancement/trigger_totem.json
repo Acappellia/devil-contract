@@ -1,0 +1,10 @@
+{
+    "criteria": {
+        "trigger_totem": {
+            "trigger": "used_totem"
+        }
+    },
+    "rewards": {
+        "function": "dc:private/player/trigger_totem"
+    }
+}

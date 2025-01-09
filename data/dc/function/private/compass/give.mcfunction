@@ -1,0 +1,1 @@
+give @s compass[custom_data={dc_compass:1b},consumable={animation:"none",consume_seconds:10000000,has_consume_particles:false,sound:"block.beacon.power_select"},use_cooldown={cooldown_group:"dc_compass",seconds:90}]
