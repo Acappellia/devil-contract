@@ -19,7 +19,7 @@ scoreboard players set @a dc_score 0
 scoreboard players set @a dc_survivetime 0
 scoreboard players set @s dc_death_counter 0
 scoreboard players set #dc_all_score dc 0
-scoreboard players set #final_timer dc 240
+scoreboard players set #final_timer dc 900
 
 scoreboard players set #game_status dc 1
 
@@ -34,4 +34,4 @@ execute as @a[tag=dc_summon_skeleton] at @s run function dc:private/player/summo
 schedule function dc:private/30s_tick 30s append
 schedule function dc:private/1min_tick 60s append
 
-schedule function dc:private/border_move/1 150s replace
+schedule function dc:private/border_move/1 90s replace

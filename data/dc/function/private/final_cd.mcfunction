@@ -1,5 +1,16 @@
 execute store result bossbar final_timer value run scoreboard players remove #final_timer dc 1
 
+scoreboard players operation #timer_min dc = #final_timer dc
+scoreboard players operation #timer_sec dc = #final_timer dc
+
+scoreboard players operation #timer_min dc /= #60 dc
+scoreboard players operation #timer_sec dc %= #60 dc
+
+execute store result storage dc:tmp timer.min int 1 run scoreboard players get #timer_min dc
+execute store result storage dc:tmp timer.sec int 1 run scoreboard players get #timer_sec dc
+
+function dc:private/timer_settitle with storage dc:tmp timer
+
 execute unless score #final_timer dc matches 0 run return -1
 
 effect give @a resistance infinite 9 true

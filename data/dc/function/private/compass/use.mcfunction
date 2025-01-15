@@ -5,7 +5,7 @@ scoreboard players set @s dc_itemcd -10
 
 execute if score @s dc_compass_cd matches ..0 run return run function dc:private/compass/tell_cd
 execute unless data entity @s SelectedItem.components."minecraft:custom_data".dc_compass run return -1
-scoreboard players set @s dc_compass_cd -1800
+scoreboard players set @s dc_compass_cd -1200
 
 playsound block.beacon.power_select player @s
 

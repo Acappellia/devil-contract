@@ -9,6 +9,7 @@ forceload add 0 0 0 0
 scoreboard objectives add dc dummy
 scoreboard players set #10 dc 10
 scoreboard players set #20 dc 20
+scoreboard players set #60 dc 60
 execute unless score #pid dc matches 0.. run scoreboard players set #pid dc 0
 execute unless score #game_status dc matches 0.. run scoreboard players set #game_status dc 0
 execute unless score #score_per_trasure dc matches 0.. run scoreboard players set #score_per_trasure dc 100

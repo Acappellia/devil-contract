@@ -1,0 +1,2 @@
+$execute if score #timer_sec dc matches 10.. run bossbar set final_timer name "剩余时间：$(min):$(sec)"
+$execute unless score #timer_sec dc matches 10.. run bossbar set final_timer name "剩余时间：$(min):0$(sec)"
